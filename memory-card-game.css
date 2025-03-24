@@ -1,12 +1,12 @@
-.container {
-  height: 700px;
-  width: 80%;
-  border-width: 4px;
-  border-color: rgba(0, 0, 0, 0.251);
-  border-style: solid;
-  position: absolute;
-  top: 5%;
-  left: 10%;
+body {
+  margin-left: 125px;
+  font-family: Arial;
+}
+
+.title-text {
+  font-size: 40px;
+  margin-left: 320px;
+  color: black;
 }
 
 .cards-container {
@@ -21,11 +21,13 @@
 }
 
 .stadistics-container {
-  border-width: 6px;
-  border-color: black;
+  border-width: 3px;
+  border-color: rgba(0, 0, 0, 0.20);
   border-style: solid;
-  background-color: lightblue;
-  height: 100px;
-  width: 900px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.30);
+  border-bottom-color: rgba(0, 0, 0, 0.35);
+  background-color: rgb(255, 255, 255);
+  height: 180px;
+  width: 1000px;
   margin-top: 10px;
 }
