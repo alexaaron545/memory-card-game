@@ -31,3 +31,10 @@ body {
   width: 1000px;
   margin-top: 10px;
 }
+
+.question-sign-img {
+  height: 80px;
+  width: auto;
+  margin-top: 32px;
+  margin-left: 80px;
+}
