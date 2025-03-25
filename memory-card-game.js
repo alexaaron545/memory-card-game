@@ -5,6 +5,9 @@ let cards = [];
 // so i am able to use it
 cards = document.querySelector(".cards-container").children;
 
+//
+ 
+
 // Use a loop to add and "eventListener" to all the cards element.
 // This is a "Click" EventListener, now each time i click a card, it will do
 // whatever code that is inside the eventListener brackets "{}".
@@ -17,6 +20,7 @@ for (let i = 0; i < cards.length; i++) {
     // inside the card (it would be could if i could add a little animation to resembles
     // a card being turn around, i'll later see if i can add it)
 
-    
+    cards[i].children[0].src="images/pngwing.com(1).png"
+
   })
 }
