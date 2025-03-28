@@ -16,7 +16,6 @@ body {
   grid-gap: 6px;
 }
 
-/* Now i need to find a way to make a transition when you click the cards*/
 .card {
   background-color: black;
   cursor: pointer;

@@ -1,5 +1,5 @@
 /* This function will ramdomize the order of the numbers (these numbers will be used as indexes for the cases
-in the switch statement). This indexes will decide what image is inside each card (randomly).
+in the switch statement). This indexes will decide what image is inside each card (randomly)
 */
 function randomize_cards_image() {
   cards_number = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
