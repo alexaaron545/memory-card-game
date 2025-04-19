@@ -1,12 +1,13 @@
 body {
   margin-left: 125px;
   font-family: Arial;
+  background-color: rgb(247, 23, 53);
 }
 
 .title-text {
   font-size: 40px;
   margin-left: 320px;
-  color: black;
+  color: white
 }
 
 .cards-container {
@@ -19,6 +20,9 @@ body {
 .card {
   background-color: black;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .stadistics-container {
@@ -36,6 +40,4 @@ body {
 .question-sign-img {
   height: 80px;
   width: auto;
-  margin-top: 32px;
-  margin-left: 80px;
 }
